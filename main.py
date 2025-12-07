@@ -17,6 +17,7 @@ args = vars(parser.parse_args())
 
 
 if validate_parameters(args):
-    print("[DEBUG] Args are valid")
+    if args["start"]:
+        create_SaveItem(create_focusTime(args["task"]))        
 else:
     print("Ups! Something went wrong, please check your parameters according to the documentation.")
