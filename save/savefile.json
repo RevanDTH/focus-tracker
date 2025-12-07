@@ -2,22 +2,8 @@
   {
     "id": "64e44572-1f5b-4d3f-a07a-7bb3e1646e92",
     "start_time": "2025-12-07 10:52:14.702074",
-    "end_time": null,
-    "duration_minutes": null,
+    "end_time": "2025-12-07 11:38:04.434658",
+    "duration_minutes": 45,
     "task": "Test"
-  },
-  {
-    "id": "0d6b2cf6-0b00-45ba-8565-c8d283925473",
-    "start_time": "2025-12-07 10:57:48.263352",
-    "end_time": null,
-    "duration_minutes": null,
-    "task": "Test2"
-  },
-  {
-    "id": "fa5c2a34-4d9f-4ca4-b104-45c4c7278002",
-    "start_time": "2025-12-07 10:58:42.185119",
-    "end_time": null,
-    "duration_minutes": null,
-    "task": "Test2"
   }
 ]

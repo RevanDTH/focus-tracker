@@ -18,6 +18,10 @@ args = vars(parser.parse_args())
 
 if validate_parameters(args):
     if args["start"]:
-        create_SaveItem(create_focusTime(args["task"]))        
+        create_SaveItem(create_focusTime(args["task"])) 
+        print(f"Focus time for the task {args["task"]} started!")       
+    elif args["end"]:
+        ended_focusTime = end_SaveItem()
+        print(f"Ended current focus time for the task {ended_focusTime["task"]}. Your focus time lasted {ended_focusTime["duration_minutes"]} minutes.")
 else:
     print("Ups! Something went wrong, please check your parameters according to the documentation.")

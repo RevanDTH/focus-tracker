@@ -14,9 +14,15 @@ def create_focusTime(task):
     newTask = models.focusTime(task=task)
     return newTask
 
-def check_saveLocation():
+def create_saveLocation():
     if not os.path.exists("./save/savefile.json"):
         os.makedirs("./save")
         with open("savefile.json", "w") as saveFile:
             savefile_str = '{}'
             saveFile.write(savefile_str)
+
+def check_saveLocation():
+    if not os.path.exists("./save/savefile.json"):
+        return False
+    else:
+        return True
